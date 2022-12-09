@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viniciushora/generic-social-media"
+    "url": "git+https://github.com/Emanueluz/temporario"
   },
   "keywords": [
     "web",
@@ -19,9 +19,9 @@
   "author": "Francisco Boldt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/viniciushora/generic-social-media"
+    "url": "https://github.com/Emanueluz/temporario"
   },
-  "homepage": "https://github.com/viniciushora/generic-social-media",
+  "homepage": "https://github.com/Emanueluz/temporario",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.2",
