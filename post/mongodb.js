@@ -4,22 +4,23 @@ const PostSchema = new Schema(
     {
         textContent: {
             type: String,
-            required: [true, 'forneca um conteudo de texto'],
+            required: [true, '  texto'],
             maxlength: 300,
         },
         author: {
             type: String,
-            required: [true, 'forneca nomo do autor'],
+            required: [true, ' autor'],
             maxlength: 20,
             minlength: 5,
         },
         createdBy: {
             type: Types.ObjectId,
             ref: 'User',
-            required: [true, 'forneca usuario']
+            required: [true, '  usuario']
         },
     },
     { timestamps: true }
 )
 
 export default model('Post', PostSchema)
+
